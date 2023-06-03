@@ -1,0 +1,26 @@
+.top-scroll{
+    background: var(--top-scroll-btn);
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    bottom: 60px;
+    right: 40px;
+    z-index: 100;
+    position: fixed;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: .3s all ease-in-out;
+  }
+  .top-scroll:hover{
+    transform: translateY(-25px);
+    color: var(--button-color);
+  }
+  .top-scroll-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+  }
+  .top-scroll-icon i{
+    font-size: 30px;
+  }
