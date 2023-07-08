@@ -34,7 +34,7 @@ const Popular = (props) => {
         <meta name="twitter:description" content="AnimXer is a Free Anime streaming website which you can watch English Subbed and Dubbed Anime online without creating any Account" />
         <meta name="twitter:image" content="https://user-images.githubusercontent.com/95211406/234815538-17642467-574a-42ec-96d1-75c2a67bebd3.png" />
 
-        <title>Watch Download Anime For Free On AnimeTrix</title>
+        <title>Watch Download Anime For Free On AnimXer</title>
       </Helmet>
       {Object.keys(props.popular).length === 0 ? (
         <OtherPagesCard title="Popular Anime"/>
